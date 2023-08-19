@@ -1,0 +1,30 @@
+{
+    "application": {
+        "environment": "development",
+        "debug": true,
+        "debug_log": true,
+        "benchmark": true,
+        "prettify": true,
+        "note" : {
+            "prettify": "when debug mode it will be auto prettify",
+            "benchmark": "See on middlewares, there should be debug also activated",
+            "debug_log": "it will send console.debug() to cli, otherwise will be skipped"
+        }
+    },
+    "database": {},
+    "cookie": {
+        "name": "session",
+        "path": "/",
+        "expire": 0
+    },
+    "security" : {
+        "key": "security_key_here",
+        "salt": "salt_key_here"
+    },
+    "server": {
+        "port": 3000,
+        "host": "127.0.0.1",
+        "timeout": 5,
+        "retry" : 10
+    }
+}

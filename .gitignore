@@ -1,0 +1,24 @@
+
+# IGNORANCE FILES
+.DS_Store
+.Thumb
+.ThumbDB
+
+# IGNORE LOG
+*.log
+
+# IGNORE LOCK
+*.lock
+
+# IGNORE VENDOR
+vendor/
+
+# IGNORE IDE
+.idea/
+
+# Ignore Node Modules
+node_modules/
+
+# Ignore main config
+config.json
+database.json
